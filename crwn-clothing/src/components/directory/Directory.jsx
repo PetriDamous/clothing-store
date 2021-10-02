@@ -17,8 +17,8 @@ export default class Directory extends Component {
 
     return (
       <div className="directory-menu">
-        {sections.map(({ id, ...otherProps }) => (
-          <MenuItem key={id} {...otherProps} />
+        {sections.map(({ id, ...otherDirectoryProps }) => (
+          <MenuItem key={id} {...otherDirectoryProps} />
         ))}
       </div>
     );

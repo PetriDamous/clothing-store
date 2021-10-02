@@ -12,9 +12,6 @@ const MenuItem = ({ title, imageUrl, size, linkUrl, match, history }) => {
     height: "100%",
   };
 
-  console.log(match.url);
-  console.log(history);
-
   return (
     <>
       <div
