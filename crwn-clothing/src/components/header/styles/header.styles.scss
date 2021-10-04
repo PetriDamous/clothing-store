@@ -26,5 +26,9 @@
       text-transform: uppercase;
       padding: 10px 15px;
     }
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
